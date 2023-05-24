@@ -7,17 +7,17 @@ class NotificationPost extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        ListTile(
-          leading: const Icon(
+        const ListTile(
+          leading: Icon(
             Icons.star,
             color: Colors.purple,
           ),
           title: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 10),
+                padding: EdgeInsets.only(top: 10),
                 child: Row(
-                  children: const [
+                  children: [
                     Text(
                       'Maximmilian',
                       style: TextStyle(fontWeight: FontWeight.bold),
@@ -32,20 +32,20 @@ class NotificationPost extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(
+              SizedBox(
                 height: 5,
               ),
               Row(
-                children: const [
+                children: [
                   Text("Y'all ready for this next post?"),
                 ],
               ),
-              const SizedBox(
+              SizedBox(
                 height: 10,
               ),
             ],
           ),
-          trailing: const Icon(
+          trailing: Icon(
             Icons.arrow_downward,
             size: 15,
           ),
@@ -82,8 +82,8 @@ class NotificationPost extends StatelessWidget {
               const SizedBox(
                 height: 5,
               ),
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Expanded(
                     child: Text(
                         "If you're looking for positive quotes and uplifting sayings to boost your mood, these 100 stay positive quotes will help you look on the bright side—even when your day starts out on the totally wrong foot From uplifting sayings that encourage a sense of optimism to feel-good affirmations that'll help you get your glass half full attitude back, this list of inspiring stay positive quotes, thoughts, and messages can help during uncertain times."),
@@ -93,10 +93,10 @@ class NotificationPost extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              Row(
+              const Row(
                 children: [
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.comment_outlined,
                         color: Colors.grey,
@@ -108,11 +108,11 @@ class NotificationPost extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.share,
                         color: Colors.grey,
@@ -124,11 +124,11 @@ class NotificationPost extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.favorite_outline,
                         color: Colors.grey,
@@ -140,11 +140,11 @@ class NotificationPost extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.send_outlined,
                         color: Colors.grey,
@@ -193,8 +193,8 @@ class NotificationPost extends StatelessWidget {
               const SizedBox(
                 height: 5,
               ),
-              Row(
-                children: const [
+              const Row(
+                children: [
                   Expanded(
                     child: Text(
                         "If you're looking for positive quotes and uplifting sayings to boost your mood, "),
@@ -213,10 +213,10 @@ class NotificationPost extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              Row(
+              const Row(
                 children: [
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.comment_outlined,
                         color: Colors.grey,
@@ -228,11 +228,11 @@ class NotificationPost extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.share,
                         color: Colors.grey,
@@ -244,11 +244,11 @@ class NotificationPost extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.favorite_outline,
                         color: Colors.grey,
@@ -260,11 +260,11 @@ class NotificationPost extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 30,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       Icon(
                         Icons.send_outlined,
                         color: Colors.grey,

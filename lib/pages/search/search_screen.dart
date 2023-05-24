@@ -23,9 +23,9 @@ class SearchScreen extends StatelessWidget {
                 color: Colors.grey.shade300,
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Row(
+              child: const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children: [
                   Icon(
                     Icons.search,
                     color: Colors.grey,
@@ -48,10 +48,10 @@ class SearchScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(15.0),
+            const Padding(
+              padding: EdgeInsets.all(15.0),
               child: Row(
-                children: const [
+                children: [
                   Text(
                     'Trends for you',
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
@@ -62,11 +62,11 @@ class SearchScreen extends StatelessWidget {
             const Divider(
               thickness: 1,
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 50),
+            const Padding(
+              padding: EdgeInsets.only(top: 50),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children: [
                   Text(
                     'No new trends for you',
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
@@ -77,18 +77,18 @@ class SearchScreen extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
                   'It seems like there not a lot to show you right now , ',
                   style: TextStyle(color: Colors.grey),
                 ),
               ],
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
                   'but you can see trends for other areas',
                   style: TextStyle(color: Colors.grey),
